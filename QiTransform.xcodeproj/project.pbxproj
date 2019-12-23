@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1409A43723ACC0A0008756BB /* BezierPathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1409A43623ACC0A0008756BB /* BezierPathController.swift */; };
+		1409A43923ACC0C2008756BB /* BezierPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1409A43823ACC0C2008756BB /* BezierPathView.swift */; };
 		1425757923A8D0D800206081 /* affinetransform.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1425757823A8D0D800206081 /* affinetransform.jpeg */; };
 		1478ACF1238CFF450014A652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478ACF0238CFF450014A652 /* AppDelegate.swift */; };
 		1478ACF5238CFF450014A652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478ACF4238CFF450014A652 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1409A43623ACC0A0008756BB /* BezierPathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathController.swift; sourceTree = "<group>"; };
+		1409A43823ACC0C2008756BB /* BezierPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathView.swift; sourceTree = "<group>"; };
 		1425757823A8D0D800206081 /* affinetransform.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = affinetransform.jpeg; sourceTree = "<group>"; };
 		1478ACED238CFF450014A652 /* QiTransform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiTransform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1478ACF0238CFF450014A652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				1425757823A8D0D800206081 /* affinetransform.jpeg */,
 				1478ACF0238CFF450014A652 /* AppDelegate.swift */,
 				1478ACF4238CFF450014A652 /* ViewController.swift */,
+				1409A43623ACC0A0008756BB /* BezierPathController.swift */,
+				1409A43823ACC0C2008756BB /* BezierPathView.swift */,
 				1478AD04238D012F0014A652 /* AffineTransfromController.swift */,
 				14E829A82390C90C0065EA4F /* AffineTransfromView.swift */,
 				1478ACF9238CFF460014A652 /* Assets.xcassets */,
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1409A43723ACC0A0008756BB /* BezierPathController.swift in Sources */,
 				14E829A92390C90C0065EA4F /* AffineTransfromView.swift in Sources */,
+				1409A43923ACC0C2008756BB /* BezierPathView.swift in Sources */,
 				1478ACF5238CFF450014A652 /* ViewController.swift in Sources */,
 				1478ACF1238CFF450014A652 /* AppDelegate.swift in Sources */,
 				1478AD05238D012F0014A652 /* AffineTransfromController.swift in Sources */,
