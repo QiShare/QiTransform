@@ -15,6 +15,7 @@
 		1478ACFA238CFF460014A652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1478ACF9238CFF460014A652 /* Assets.xcassets */; };
 		1478ACFD238CFF460014A652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1478ACFB238CFF460014A652 /* LaunchScreen.storyboard */; };
 		1478AD05238D012F0014A652 /* AffineTransfromController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478AD04238D012F0014A652 /* AffineTransfromController.swift */; };
+		1490DFCE23D1A409008F1BA0 /* CATransform3DController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1490DFCD23D1A409008F1BA0 /* CATransform3DController.swift */; };
 		14E829A92390C90C0065EA4F /* AffineTransfromView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E829A82390C90C0065EA4F /* AffineTransfromView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		1478ACFC238CFF460014A652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1478ACFE238CFF460014A652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1478AD04238D012F0014A652 /* AffineTransfromController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffineTransfromController.swift; sourceTree = "<group>"; };
+		1490DFCD23D1A409008F1BA0 /* CATransform3DController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATransform3DController.swift; sourceTree = "<group>"; };
 		14E829A82390C90C0065EA4F /* AffineTransfromView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffineTransfromView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 				1425757823A8D0D800206081 /* affinetransform.jpeg */,
 				1478ACF0238CFF450014A652 /* AppDelegate.swift */,
 				1478ACF4238CFF450014A652 /* ViewController.swift */,
+				1490DFCD23D1A409008F1BA0 /* CATransform3DController.swift */,
 				1409A43623ACC0A0008756BB /* BezierPathController.swift */,
 				1409A43823ACC0C2008756BB /* BezierPathView.swift */,
 				1478AD04238D012F0014A652 /* AffineTransfromController.swift */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1490DFCE23D1A409008F1BA0 /* CATransform3DController.swift in Sources */,
 				1409A43723ACC0A0008756BB /* BezierPathController.swift in Sources */,
 				14E829A92390C90C0065EA4F /* AffineTransfromView.swift in Sources */,
 				1409A43923ACC0C2008756BB /* BezierPathView.swift in Sources */,

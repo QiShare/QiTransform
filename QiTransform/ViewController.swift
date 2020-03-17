@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         let space: CGFloat = 15.0
         let size: CGSize = self.view.frame.size
         
-        let titleArr:NSArray = ["AffineTransfrom", "BezierPath"]
+        let titleArr:NSArray = ["AffineTransfrom", "CATransform3D", "BezierPath"]
         
         var offset:CGFloat = 50.0
         
@@ -57,6 +57,9 @@ class ViewController: UIViewController {
             self.navigationController?.pushViewController(testTrandform, animated: true)
         }
         else if button.tag == 1 {
+            let transform3D = CATransform3DController.init()
+            self.navigationController?.pushViewController(transform3D, animated: true)
+        } else if button.tag == 2 {
             let bezierController :BezierPathController = .init();
             self.navigationController?.pushViewController(bezierController, animated: true)
         }

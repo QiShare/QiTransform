@@ -163,10 +163,18 @@ class AffineTransfromView: UIView {
     
     func matrixMultiplication() {
         
+//        self.reset()
+//        let translation = CGAffineTransform(translationX: 40, y: 40)
+//        let rotation = CGAffineTransform(rotationAngle: CGFloat(Double.pi / 4.0))
+//        let transform: CGAffineTransform = translation.concatenating(rotation)
+//        self.animate(transform: transform)
+        
+        
         self.reset()
-        let translation = CGAffineTransform(translationX: 40, y: 40)
-        let rotation = CGAffineTransform(rotationAngle: CGFloat(Double.pi / 4.0))
-        let transform: CGAffineTransform = translation.concatenating(rotation)
+        let translation1 = CGAffineTransform(translationX: 40, y: 40)
+        let scale = CGAffineTransform(scaleX: 0.5, y: 0.5)
+        let translation2 = CGAffineTransform(translationX: -40, y: -40)
+        let transform: CGAffineTransform = translation1.concatenating(scale).concatenating(translation2)
         self.animate(transform: transform)
     }
     

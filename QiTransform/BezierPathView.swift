@@ -55,7 +55,7 @@ class BezierPathView: UIView {
         
         let curvePath = UIBezierPath()
         curvePath.move(to: CGPoint(x: 30.0, y: offset))
-        curvePath.addQuadCurve(to: CGPoint(x: 350.0, y: offset), controlPoint: CGPoint(x: 350.0, y: offset + 100))
+        curvePath.addQuadCurve(to: CGPoint(x: 350.0, y: offset), controlPoint: CGPoint(x: 10.0, y: offset - 100))
         UIColor.blue.setStroke()
         curvePath.stroke()
     }
